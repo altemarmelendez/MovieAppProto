@@ -1,0 +1,3 @@
+<div class='thumbnailsinfo' *ngFor="let movie of (movieDataCollection | searchmovie: searchmovieService.movieTyped | genreCategory: genremenuService.genreCategory | sortmovie: sortMovieService.sortCategory)" >
+    <app-moviethumbnails [movieThumbnails]="movie" (selectedMovie)="getSelectedMovie($event)" ></app-moviethumbnails>
+  </div>

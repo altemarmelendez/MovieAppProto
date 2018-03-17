@@ -1,0 +1,9 @@
+<main class="main-container">
+<app-navigationheader *ngIf="!displayDetails"></app-navigationheader>
+
+<div class='movie-list'>
+<app-movieandinfo *ngIf="!displayDetails" (movieDetailsData)="onMovieSelected($event)"></app-movieandinfo>
+<app-moviedetails *ngIf="displayDetails" [detailsMovieSelected]="selectedMovie" (onOffDetails)="onShowMovies()"></app-moviedetails>
+</div>
+
+</main>

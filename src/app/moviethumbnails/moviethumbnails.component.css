@@ -1,0 +1,10 @@
+.thumbnails-frames{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.thumbnails-frames:hover{
+    display: inline-block;
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}

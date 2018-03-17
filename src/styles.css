@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body, head{
+    display: absolute;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+    bottom: 0px;
+    height: 97%;
+}

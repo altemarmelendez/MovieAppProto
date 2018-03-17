@@ -1,0 +1,20 @@
+.list-optiontop li{
+    display: inline;
+    margin: 25px;
+    font-size: 15px;
+}
+
+.list-optiontop li:hover{
+    display: inline;
+    margin: 25px;
+    font-size: 15px;
+    color: #e2e2e2;
+    cursor: pointer;
+}
+
+h3{
+    color: #e2e2e2;
+    font-family: "Helvetica Neue", "Century Gothic", "Arial";
+    font-size: 16px;
+    display: inline;
+}

@@ -1,0 +1,29 @@
+.main-header{
+    display: fixed;
+    font-family: "Helvetica Neue", "Century Gothic", "Arial";
+    font-size: 20px;
+    background-color: #e9ac3a;
+    top: 0px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+}
+
+.lightFont{
+    font-weight: lighter;
+}
+
+.film-image{
+    display: inline-block;
+    position: relative;
+    padding-top: 0px;
+    margin: 0px;
+    top: 5px;
+    bottom:0px;
+}

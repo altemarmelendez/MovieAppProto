@@ -1,0 +1,18 @@
+<aside class='aside-menu'>
+  Genres
+  <ul class="list-menu">
+
+    <li [ngStyle]="{'background-color':genremenuService.genreCategory === 'all' ? 'black' : '#555555'}"
+    (click)="genreSelected('all')"  >All Movies</li>
+    <li [ngStyle]="{'background-color':genremenuService.genreCategory === 'thriller' ? 'black' : '#555555'}"
+    (click)="genreSelected('thriller')" >Thriller</li>
+    <li [ngStyle]="{'background-color':genremenuService.genreCategory === 'drama' ? 'black' : '#555555'}"
+    (click)="genreSelected('drama')">Drama</li>
+    <li [ngStyle]="{'background-color':genremenuService.genreCategory === 'cartoon' ? 'black' : '#555555'}"
+    (click)="genreSelected('cartoon')">Cartoons</li>
+    <li [ngStyle]="{'background-color':genremenuService.genreCategory === 'horror' ? 'black' : '#555555'}"
+    (click)="genreSelected('horror')" >Horror</li>
+    <li (click)="genreSelected('action')"[ngStyle]="{'background-color':genremenuService.genreCategory === 'action' ? 'black' : '#555555'}" >Action</li>
+
+  </ul>
+</aside>

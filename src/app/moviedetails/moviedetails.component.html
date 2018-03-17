@@ -1,0 +1,29 @@
+<div class="back-movies" (click)="showMovies()">
+  < Back to Movies
+</div>
+<div class="main-movie">
+<div class ='left-side' > 
+<h2 class="name-detail">{{detailsMovieSelected.name}}</h2>
+<h2>{{detailsMovieSelected.genre}}</h2>
+<app-starsrating [ratingNumbers]="detailsMovieSelected.rating" (starValueChange)='newValueForRating($event)'></app-starsrating>
+<img width="250" [src]="detailsMovieSelected.picture">
+</div>
+<div class="rightside-movie">
+  <h3>Genre:</h3>
+  <h4>{{detailsMovieSelected.genre}}</h4>
+  <h3>Budget:</h3>
+  <h4>{{detailsMovieSelected.budget | currency }}</h4>
+  <h3>Gross:</h3>
+  <h4>{{detailsMovieSelected.gross | currency }}</h4>
+  <h3>Runtime:</h3>
+  <h4>{{detailsMovieSelected.runtime}}</h4>
+  <h3>Release Date:</h3>
+  <h4>{{detailsMovieSelected.releaseDate}}</h4>
+  <h3>Director:</h3>
+  <h4>{{detailsMovieSelected.director}}</h4>
+  <h3>Stars:</h3>
+  <h4>{{detailsMovieSelected.stars}}</h4>
+  <h3>Synopsis:</h3>
+  <h4>{{detailsMovieSelected.synopsis}}</h4>
+</div>
+</div>

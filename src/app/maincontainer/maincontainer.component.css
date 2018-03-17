@@ -1,0 +1,12 @@
+main{
+    height: 100%;
+    font-family: "Helvetica Neue", "Century Gothic", "Arial";
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.main-container{
+    background-color: #1b1b1b;
+    overflow-y: scroll;
+    color: #ffbd2e;
+}

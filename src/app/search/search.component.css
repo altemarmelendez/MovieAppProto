@@ -1,0 +1,15 @@
+p{
+    display: inline;
+    position: absolute;
+    right: 40px;
+    top:-10px;
+}
+
+.search-movies{
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 80%;
+    height: 24px;
+    position: relative;
+    top: -8px;
+}

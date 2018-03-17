@@ -1,0 +1,5 @@
+<div class="thumbnails-frames">
+  <img width="90" [src]="movieThumbnails.picture" (click)='sendingId(movieThumbnails.id)'> 
+  <br>{{movieThumbnails.name}}
+  <br><app-starsrating [ratingNumbers]="movieThumbnails.rating" [idMovie]="movieThumbnails.id"></app-starsrating><!-- <div [innerHtml]="ratingStar"></div> -->
+</div>
